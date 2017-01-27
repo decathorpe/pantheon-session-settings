@@ -3,6 +3,5 @@ Name=Pantheon on Wayland
 Comment=This session provides elementary experience
 Exec=gnome-session --session=pantheon-wayland
 TryExec=wingpanel
-Icon=
 DesktopNames=Pantheon
 Type=Application
