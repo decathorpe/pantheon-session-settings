@@ -1,5 +1,11 @@
 # Release Notes
 
+## Release 27.90 (March 8, 2018)
+
+- Synchronize with the latest state of fedora 28 (pre-beta).
+
+This fixes launching the Pantheon session on fedora 28 (and hopefully rawhide).
+
 ## Release 27.0 (November 11, 2017)
 
 - Synchronize with the latest state of fedora 27.
