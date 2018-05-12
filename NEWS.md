@@ -1,5 +1,12 @@
 # Release Notes
 
+## Release 28.0 (May 12, 2018)
+
+- Synchronize with the latest state of fedora 28.
+
+This includes changes the GNOME 3.28.2 update. Difference to the 27.90 release
+are just some translation updates and two added `NoDisplay=true` entries.
+
 ## Release 27.90 (March 8, 2018)
 
 - Synchronize with the latest state of fedora 28 (pre-beta).
