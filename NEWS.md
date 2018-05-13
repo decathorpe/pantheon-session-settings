@@ -1,5 +1,10 @@
 # Release Notes
 
+## Release 28.1 (May 13, 2018)
+
+- Remove org.gnome.SettingsDaemon.ScreensaverProxy to fix the lock screen (at
+  least when running on LightDM).
+
 ## Release 28.0 (May 12, 2018)
 
 - Synchronize with the latest state of fedora 28.
