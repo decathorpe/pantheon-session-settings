@@ -1,5 +1,9 @@
 # Release Notes
 
+## Release 28.90 (June 3, 2018)
+
+- Remove cerbere symlink which is now shipped with cerbere.
+
 ## Release 28.1 (May 13, 2018)
 
 - Remove org.gnome.SettingsDaemon.ScreensaverProxy to fix the lock screen (at
