@@ -1,4 +1,5 @@
 [org.gnome.desktop.interface]
+clock-show-date=true
 cursor-theme='elementary'
 document-font-name='Open Sans 10'
 font-name='Open Sans 9'
@@ -7,6 +8,9 @@ icon-theme='elementary'
 monospace-font-name='Roboto Mono 10'
 show-unicode-menu=false
 toolbar-style='icons'
+
+[org.gnome.desktop.sound]
+theme-name='elementary'
 
 [org.gnome.desktop.wm.preferences]
 button-layout='close,menu:maximize'
