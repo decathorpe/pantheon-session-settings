@@ -1,5 +1,10 @@
 # Release Notes
 
+## Release 28.91 (August 6, 2018)
+
+- Merge default application associations from elementary upstream.
+- Add elementary sound theme to settings overrides.
+
 ## Release 28.90 (June 3, 2018)
 
 - Remove cerbere symlink which is now shipped with cerbere.
