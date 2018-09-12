@@ -1,5 +1,9 @@
 # Release Notes
 
+## Release 28.92 (September 12, 2018)
+
+- Add new `gala-daemon` to list of required session components.
+
 ## Release 28.91 (August 6, 2018)
 
 - Merge default application associations from elementary upstream.
