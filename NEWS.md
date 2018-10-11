@@ -1,5 +1,9 @@
 # Release Notes
 
+## Release 29.0 (October 11, 2018)
+
+- Stable release for fedora 29.
+
 ## Release 28.92 (September 12, 2018)
 
 - Add new `gala-daemon` to list of required session components.
