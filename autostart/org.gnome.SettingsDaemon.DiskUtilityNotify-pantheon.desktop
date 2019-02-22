@@ -5,3 +5,4 @@ Exec=/usr/libexec/gsd-disk-utility-notify
 OnlyShowIn=Pantheon;
 NoDisplay=true
 X-GNOME-AutoRestart=true
+

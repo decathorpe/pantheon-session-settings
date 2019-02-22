@@ -108,7 +108,7 @@ Comment[kn]=ಪ್ರಸಕ್ತ ಭಾಷೆಗೆ(ಲೊಕ್ಯಾಲ್‌
 Comment[ko]=현재 로캘에 맞게 공통 폴더의 이름을 바꿉니다
 Comment[ku]=Navên peldankên zêde bikaranî rojane bike da ku lihevhatina bi localeya heyî re hebe.
 Comment[lt]=Atnaujinti standartinių aplankų vardus pagal nustatytą lokalę
-Comment[lv]=Atjaunināt vispārīgo mapju nosaukumus, lai tie sakristu ar izvēlēto lokāli 
+Comment[lv]=Atjaunināt vispārīgo mapju nosaukumus, lai tie sakristu ar izvēlēto lokāli
 Comment[ml]=ഇപ്പോഴുള്ള ലൊക്കേലുമായി പൊരുത്തപ്പെടുന്ന സാധാരണ ഫോള്‍ഡര്‍ നാമങ്ങള്‍ നല്‍കുക
 Comment[mr]=सध्याच्या लोकेलची जुळवणी करण्यासाठी सामान्य फोल्डरचे नावे सुधारीत करा
 Comment[nb]=Oppdater navn på vanlige mapper til aktivt språk
@@ -142,3 +142,4 @@ OnlyShowIn=Pantheon;
 Type=Application
 StartupNotify=false
 X-KDE-autostart-after=panel
+
