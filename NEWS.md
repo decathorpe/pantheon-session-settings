@@ -1,5 +1,12 @@
 # Release Notes
 
+## Release 29.90 (February 22, 2019)
+
+- Merge changes from current fedora rawhide in preparation for fedora 30.
+
+This is the first time the automatically generated files are used. I verified
+the results manually, but if I missed any issues, feel free to report them.
+
 ## Release 29.0 (October 11, 2018)
 
 - Stable release for fedora 29.
