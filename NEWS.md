@@ -1,5 +1,10 @@
 # Release Notes
 
+## Release 30.0 (May 8, 2019)
+
+- Merge changes from final fedora 30 release.
+- Replace retired "Roboto Mono" font override with "Monospace"
+
 ## Release 29.90 (February 22, 2019)
 
 - Merge changes from current fedora rawhide in preparation for fedora 30.
