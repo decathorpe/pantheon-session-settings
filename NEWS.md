@@ -1,5 +1,9 @@
 # Release Notes
 
+## Release 30.1 (July 16, 2019)
+
+- Add more upstream default settings to overrides.
+
 ## Release 30.0 (May 8, 2019)
 
 - Merge changes from final fedora 30 release.
