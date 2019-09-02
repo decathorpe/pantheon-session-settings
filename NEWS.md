@@ -1,5 +1,9 @@
 # Release Notes
 
+## Release 30.90 (September 2, 2019)
+
+- Add files for the Pantheon accountsservice extensions.
+
 ## Release 30.1 (July 16, 2019)
 
 - Add more upstream default settings to overrides.
