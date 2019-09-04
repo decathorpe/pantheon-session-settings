@@ -560,10 +560,9 @@ class GnomeSessionGenerator(Generator):
 
         upstream_session = DesktopFile.from_file(upstream_session_path)
 
-        # replace "ubuntu" fallback session with "GNOME"
+        # replace fallback session with "GNOME"
         if upstream_session.has_option("GNOME Session", "FallbackSession"):
-            if upstream_session.get("GNOME Session", "FallbackSession") == "ubuntu":
-                upstream_session.set("GNOME Session", "FallbackSession", "GNOME")
+            upstream_session.set("GNOME Session", "FallbackSession", "GNOME")
 
         # check and compare required components
         req_comps = upstream_session.get("GNOME Session", "RequiredComponents").split(";")[0:-1]
@@ -575,6 +574,10 @@ class GnomeSessionGenerator(Generator):
         for req_comp in req_comps:
             if req_comp not in self.components:
                 print(f"Required component {req_comp} not present in default components.")
+
+        # modifying RequiredComponents
+        print("Modifying RequiredComponents ...")
+        upstream_session.set("GNOME Session", "RequiredComponents", ";".join(self.components + []))
 
         # write out modified file
         outfile = os.path.join(self.destination, "pantheon.session")
