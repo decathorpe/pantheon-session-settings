@@ -70,7 +70,7 @@ DEFAULT_SESSION_COMPONENTS = [
     'org.gnome.SettingsDaemon.XSettings'
 ]
 
-GNOME_SESSION_FILE_NAME = "pantheon.session"
+GNOME_SESSION_FILE_NAME = "pantheon.session.in"
 XSESSION_FILE_NAME = "pantheon.desktop"
 
 
@@ -577,7 +577,7 @@ class GnomeSessionGenerator(Generator):
                 print(f"Required component {req_comp} not present in default components.")
 
         # write out modified file
-        outfile = os.path.join(self.destination, GNOME_SESSION_FILE_NAME)
+        outfile = os.path.join(self.destination, "pantheon.session")
 
         if os.path.exists(outfile) and not self.force:
             raise FileExistsError("Destionation file already exists.")
