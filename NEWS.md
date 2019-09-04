@@ -1,5 +1,9 @@
 # Release Notes
 
+## Release 30.91 (September 4, 2019)
+
+- Merge changes from fedora 31 pre-beta.
+
 ## Release 30.90 (September 2, 2019)
 
 - Add files for the Pantheon accountsservice extensions.
