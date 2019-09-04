@@ -1,5 +1,16 @@
 [Desktop Entry]
 Type=Application
+Name[el]=Αναγνώστης οθόνης Orca
+Name[es]=Lector de pantalla Orca
+Name[eu]=Orca pantaila-irakurlea
+Name[hu]=Orka képernyőolvasó
+Name[id]=Pembaca layar Orca
+Name[nl]=Orca schermlezer
+Name[pt_BR]=Leitor de tela Orca
+Name[ro]=Cititorul de ecran Orca
+Name[ru]=Экранный диктор Orca
+Name[sl]=Bralnik zaslona Orka
+Name[sv]=Orca skärmläsare
 Name=Orca screen reader
 Exec=orca
 NoDisplay=true
