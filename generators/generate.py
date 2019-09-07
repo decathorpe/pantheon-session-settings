@@ -576,7 +576,7 @@ class GnomeSessionGenerator(Generator):
 
         # modifying RequiredComponents
         print("Modifying RequiredComponents ...")
-        upstream_session.set("GNOME Session", "RequiredComponents", ";".join(self.components + []))
+        upstream_session.set("GNOME Session", "RequiredComponents", ";".join(self.components + [""]))
 
         # write out modified file
         outfile = os.path.join(self.destination, "pantheon.session")
