@@ -55,7 +55,7 @@ DEFAULT_SESSION_COMPONENTS = [
     'org.gnome.SettingsDaemon.A11ySettings',
     'org.gnome.SettingsDaemon.Color',
     'org.gnome.SettingsDaemon.Datetime',
-    'org.gnome.SettingsDaemon.DiskUtilityNotify.desktop',
+    'org.gnome.SettingsDaemon.DiskUtilityNotify',
     'org.gnome.SettingsDaemon.Housekeeping',
     'org.gnome.SettingsDaemon.Keyboard',
     'org.gnome.SettingsDaemon.MediaKeys',
@@ -65,7 +65,6 @@ DEFAULT_SESSION_COMPONENTS = [
     'org.gnome.SettingsDaemon.Sharing',
     'org.gnome.SettingsDaemon.Smartcard',
     'org.gnome.SettingsDaemon.Sound',
-    'org.gnome.SettingsDaemon.Wwan',
     'org.gnome.SettingsDaemon.Wacom',
     'org.gnome.SettingsDaemon.XSettings'
 ]
