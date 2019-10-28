@@ -296,7 +296,7 @@ class Generator(metaclass=abc.ABCMeta):
 
 class ApplicationsGenerator(Generator):
     APPLICATIONS_DIRECTORY = "applications"
-    DEFAULTS_LIST_NAME = "defaults.list"
+    DEFAULTS_LIST_NAME = "pantheon-mimeapps.list"
 
     def __init__(self, distribution: str, destination: str, upstream: str, repo: str, force: bool):
         self._distribution = distribution
