@@ -1,5 +1,9 @@
 # Release Notes
 
+## Release 31.0 (October 28, 2019)
+
+- Final changes for fedora 31 support.
+
 ## Release 30.92 (September 7, 2019)
 
 - Merge changes from fedora 31 pre-beta / GNOME 3.33.92.
