@@ -1,5 +1,5 @@
 [net.launchpad.plank.dock.settings]
-# TODO: insert io.elementary.mail once it's packaged for fedora
+# TODO: insert io.elementary.mail and appcenter once they are packaged for fedora
 dock-items=['gala-multitaskingview.dockitem','firefox.dockitem','io.elementary.calendar.dockitem','io.elementary.music.dockitem','io.elementary.videos.dockitem','io.elementary.photos.dockitem','io.elementary.switchboard.dockitem']
 hide-delay=250
 hide-mode='window-dodge'
@@ -11,6 +11,15 @@ triggers=['<Control>space']
 
 [org.freedesktop.ibus.panel]
 show=1
+
+[org.gnome.desktop.background]
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/elementary/default'
+primary-color='#000000'
+show-desktop-icons=false
+
+[org.gnome.desktop.datetime]
+automatic-timezone=true
 
 [org.gnome.desktop.default-applications.terminal]
 exec='io.elementary.terminal'
@@ -29,6 +38,13 @@ icon-theme='elementary'
 monospace-font-name='Monospace 10'
 show-unicode-menu=false
 toolbar-style='icons'
+
+[org.gnome.desktop.peripherals.touchpad]
+natural-scroll=true
+tap-to-click=true
+
+[org.gnome.desktop.screensaver]
+lock-enabled=false
 
 [org.gnome.desktop.sound]
 theme-name='elementary'
@@ -97,14 +113,35 @@ toggle-tiled-right=['<Control><Super>Right']
 disable-connected-notifications=true
 show-applet=false
 
+[org.gnome.settings-daemon.peripherals.keyboard]
+numlock-state='off'
+
+[org.gnome.settings-daemon.peripherals.touchpad]
+horiz-scroll-enabled=true
+natural-scroll=true
+scroll-method='two-finger-scrolling'
+
+[org.gnome.settings-daemon.plugins.color]
+night-light-temperature=4500
+
 [org.gnome.settings-daemon.plugins.media-keys]
 screensaver='<Super>l'
 terminal='<Super>t'
+
+[org.gnome.settings-daemon.plugins.power]
+ambient-enabled=false
+idle-dim=false
 
 [org.gnome.settings-daemon.plugins.xsettings]
 antialiasing='rgba'
 hinting='slight'
 overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'close:menu,maximize'>}
+
+[org.gtk.Settings.FileChooser]
+sort-directories-first=true
+
+[org.onboard]
+theme='/usr/share/onboard/themes/Nightshade.theme'
 
 [org.pantheon.desktop.gala.behavior]
 overlay-action='io.elementary.shortcut-overlay'
