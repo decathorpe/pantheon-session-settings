@@ -16,7 +16,6 @@ show=1
 picture-options='zoom'
 picture-uri='file:///usr/share/backgrounds/elementary/default'
 primary-color='#000000'
-show-desktop-icons=false
 
 [org.gnome.desktop.datetime]
 automatic-timezone=true
@@ -28,7 +27,6 @@ exec='io.elementary.terminal'
 xkb-options=['grp:alt_shift_toggle']
 
 [org.gnome.desktop.interface]
-clock-show-date=true
 cursor-theme='elementary'
 document-font-name='Open Sans 10'
 font-name='Open Sans 9'
@@ -37,7 +35,6 @@ icon-theme='elementary'
 # Roboto Mono is no longer available on fedora, use Monospace instead
 monospace-font-name='Monospace 10'
 show-unicode-menu=false
-toolbar-style='icons'
 
 [org.gnome.desktop.peripherals.touchpad]
 natural-scroll=true
@@ -96,8 +93,6 @@ button-layout='close:menu,maximize'
 mouse-button-modifier='<Super>'
 resize-with-right-button=true
 theme='elementary'
-titlebar-font='Open Sans Bold 9'
-titlebar-uses-system-font=false
 
 [org.gnome.mutter]
 auto-maximize=false
@@ -129,7 +124,6 @@ screensaver='<Super>l'
 terminal='<Super>t'
 
 [org.gnome.settings-daemon.plugins.power]
-ambient-enabled=false
 idle-dim=false
 
 [org.gnome.settings-daemon.plugins.xsettings]
