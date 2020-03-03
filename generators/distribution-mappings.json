@@ -1,4 +1,17 @@
 {
+  "fedora-32": {
+    "evince.desktop": "org.gnome.Evince.desktop",
+    "io.elementary.calendar.desktop": "io.elementary.calendar.desktop",
+    "io.elementary.code.desktop": "io.elementary.code.desktop",
+    "io.elementary.files.desktop": "io.elementary.files.desktop",
+    "io.elementary.music.desktop": "io.elementary.music.desktop",
+    "io.elementary.photos-viewer.desktop": "io.elementary.photos-viewer.desktop",
+    "io.elementary.photos.desktop": "io.elementary.photos.desktop",
+    "io.elementary.videos.desktop": "io.elementary.videos.desktop",
+    "org.gnome.Epiphany.desktop": "org.gnome.Epiphany.desktop",
+    "org.gnome.FileRoller.desktop": "org.gnome.FileRoller.desktop",
+    "org.pantheon.mail.desktop": "org.gnome.Evolution.desktop"
+  },
   "fedora-31": {
     "evince.desktop": "org.gnome.Evince.desktop",
     "io.elementary.calendar.desktop": "io.elementary.calendar.desktop",

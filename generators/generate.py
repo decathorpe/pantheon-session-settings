@@ -43,6 +43,7 @@ DEFAULT_AUTOSTART_COMPONENTS = [
     "org.gnome.SettingsDaemon.Sharing.desktop",
     "org.gnome.SettingsDaemon.Smartcard.desktop",
     "org.gnome.SettingsDaemon.Sound.desktop",
+    "org.gnome.SettingsDaemon.UsbProtection.desktop",
     "org.gnome.SettingsDaemon.Wacom.desktop",
     "org.gnome.SettingsDaemon.Wwan.desktop",
     "org.gnome.SettingsDaemon.XSettings.desktop",
@@ -65,8 +66,9 @@ DEFAULT_SESSION_COMPONENTS = [
     'org.gnome.SettingsDaemon.Sharing',
     'org.gnome.SettingsDaemon.Smartcard',
     'org.gnome.SettingsDaemon.Sound',
+    'org.gnome.SettingsDaemon.UsbProtection',
     'org.gnome.SettingsDaemon.Wacom',
-    'org.gnome.SettingsDaemon.XSettings'
+    'org.gnome.SettingsDaemon.XSettings',
 ]
 
 GNOME_SESSION_FILE_NAME = "pantheon.session.in"
@@ -697,3 +699,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     exit(main())
+
