@@ -1,1 +1,0 @@
-- https://github.com/elementary/default-settings/commit/57009a6
